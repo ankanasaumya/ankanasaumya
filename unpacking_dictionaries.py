@@ -31,15 +31,36 @@ for ch in phone:
 print(output)
 '''
 
-# Excercise2
-# Emoji converter
-message = input(">")
-words = message.split(" ")
-smiley = {          #dictionaries
-    ":)" :"😀",
-    ":(" :"😒"
-}
-output  =""
-for word in words:
-    output += smiley.get(word, word) + " "
-print(output)
+# # Excercise2
+# # Emoji converter
+# message = input(">")
+# words = message.split(" ")
+# smiley = {          #dictionaries
+#     ":)" :"😀",
+#     ":(" :"😒",
+#     "good" : "lovely"
+# }
+# output  =""
+# for word in words:
+#     output += smiley.get(word, word) + " "
+# print(output)
+
+
+# from calendar import c
+
+
+# my_dict = {
+#     'a' : '1', # use case : prices of items in store
+#     'b' : [1,2,3], #its fliexible in date types
+#     'c' : {'cat': 'animal'}
+# }
+# print(my_dict['b'][0])
+# print(my_dict['c']['cat'].upper())
+# my_dict['d']='4'
+# print(my_dict.keys()) #print keys
+# print(my_dict.values())
+# print(my_dict.items())
+# print(my_dict.ordereddict())
+
+myset = set([1,1,2,3])
+print(myset)

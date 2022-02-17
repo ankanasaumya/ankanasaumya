@@ -189,4 +189,7 @@ while i<100:
 #             x+= 1
 # print(y)
 
+x = 7 % 4
+y = 2 ** 3
+print(x,y)
 
